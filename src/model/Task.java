@@ -5,7 +5,6 @@ import model.OneTime;
 import model.Repeatability;
 
 import java.time.LocalDateTime;
-
 public class Task {
     private static int idGenerator = 1;
     private  int id;
@@ -14,7 +13,6 @@ public class Task {
     private Type type;
     private LocalDateTime dateTime;
     private Repeatability repeatability;
-
 
     public Task(String title,
                 String description,
